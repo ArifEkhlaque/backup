@@ -1,0 +1,57 @@
+body
+{
+ background: #333;
+}
+.container
+{
+ position: absolute;
+ top: 40%;
+ left: 45%;
+ cursor: pointer;
+}
+.box1,.box2,.box3
+{
+    height: 10px;
+    width: 70px;
+    background: #fff;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+.box1.active
+{
+ position: absolute;
+ transform: rotate(45deg);
+ transition: .5s;
+}
+.box2.active
+{
+ display: none;
+}
+.box3.active
+{
+ position: absolute;
+ transform: rotate(-45deg);
+ transition: .5s;
+}
+.container2
+{
+ position: absolute;
+ top: 40%;
+ left: 65%;
+ cursor: pointer;
+}
+.box-1,.box-2
+{
+    height: 10px;
+    width: 70px;
+    background: #fff;
+    position: absolute;
+}
+.box-1
+{
+ transform: rotate(45deg);
+}
+.box-2
+{
+ transform: rotate(-45deg);
+}

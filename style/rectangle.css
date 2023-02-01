@@ -1,0 +1,38 @@
+body
+{
+ background: #27282c;
+}
+.box{
+    
+   width: 400px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    gap:10px;
+    flex-wrap: wrap;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.dot
+{
+ width: 100px;
+ height: 100px;
+ background: #fff;
+ cursor: pointer;
+ transition: 0.5s;
+ 
+}
+.dot:hover
+{
+ transform: scale(1.1);
+ transition: 0.5s;
+ background: #ff0;
+
+}
+.dot9:hover{
+    background: #f00;
+
+}

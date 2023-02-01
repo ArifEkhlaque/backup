@@ -1,0 +1,75 @@
+body
+{
+ background: #f00;
+ overflow: hidden;
+ margin: 0;
+ padding: 0;
+ 
+
+}
+.ball
+{
+ height: 7px;
+ width: 7px;
+ background: #fff;
+ border-radius: 50%;
+ position: absolute;
+ left: var(--left);
+ top:10px;
+ animation: animate var(--t) linear infinite;
+}
+.moon
+{
+ height: 300px;
+ width: 300px;
+ border-radius: 50%;
+ background-color: #fff;
+ position: absolute;
+ top: 15%;
+ left: 40%;
+ z-index: 7;
+}
+
+@keyframes animate {
+    0%{
+      top:-10%;
+    }
+    100%{
+        top:110%;
+    }
+}
+.moon::before
+{
+ content:'';
+ background-image: url(../image/santa.png);
+ width: 300%;
+ inset: -200px -300px;
+ background-repeat: no-repeat;
+ background-position: center;
+ position: absolute;
+ z-index: 9;
+ animation: animae 7s linear infinite;
+}
+.tree
+{
+ background-image: url(../image/tree.png);
+ height: 100vh;
+ width: 100%;
+ background-position: bottom;
+ position: absolute;
+ background-repeat-y: no-repeat;
+ z-index: 8;
+
+}
+
+@keyframes animae {
+    0%{
+       transform: translateY(-10%);
+    }
+    50%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(-10%);
+    }
+}

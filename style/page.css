@@ -1,0 +1,97 @@
+
+#code{
+    display: none;
+}
+body
+{
+    background: linear-gradient(165deg,#250168,#580299,#f95eae,#f51bb0);
+}
+.background
+{
+ height: 100vh;
+ width: 100%;
+ background: linear-gradient(165deg,#250168,#580299,#f95eae,#f51bb0);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.box1
+{
+ height: 500px;
+ width: 900px;
+ background: #ff0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.box2
+{
+ height: 400px;
+ width: 800px;
+ background: #580299;
+}
+.box1 .text1 a
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 30px;
+ width: 50px;
+ position: absolute;
+ top: 19%;
+ left: 23.7%;
+ background: #333;
+ color: #fff;
+ cursor: pointer;
+ text-decoration: none;
+}
+.box1 .text2 a
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 30px;
+ width: 50px;
+ position: absolute;
+ top: 19%;
+ left: 27.5%;
+ background: #333;
+ color: #fff;
+ cursor: pointer;
+ text-decoration: none;
+}
+h1
+{
+ color: #fff;
+ font-size: 36px;
+ margin-top: 30px;
+ margin-left: 10px;
+}
+.p1
+{
+ margin-top: 15px;
+ margin-left: 10px;
+ color: #fff;
+ font-size: 16px;
+}
+.p2
+{
+ margin-top: 15px;
+ margin-left: 30px;
+ color: #fff;
+ font-size: 16px;
+}
+.p3
+{
+ margin-top: 15px;
+ margin-left: 10px;
+ color: #fff;
+ font-size: 16px;
+ display: inline;
+}
+h4
+{
+ color: #ff0;
+ font-size: 16px;
+ display: inline;
+}

@@ -1,0 +1,119 @@
+body
+{
+ background: #ead3d3;
+ margin: 0;
+ padding: 0;
+}
+.container
+{
+ background-color: #ead3d3;
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.box1
+{
+ height: 600px;
+ width: 1000px;
+ background: #fff;
+ box-shadow: 5px 5px 6px #333;
+ border-radius: 25px;
+}
+.box2
+{
+ height: 600px;
+ width: 400px;
+ background: linear-gradient(45deg,#f900f9,#0d0f85);
+ box-shadow: 5px 5px 6px #000;
+ border-radius: 25px;
+ position: absolute;
+ right: 17%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.button
+{
+ border-radius: 25px;
+ height: 40px;
+ width: 150px;
+ border: 2px solid #fff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ position: absolute;
+ top: 60%;
+ left: 10%;
+}
+h2
+{
+ position: absolute;
+ top: 15%;
+ font-size: 54px;
+ color: #fff;
+ position: absolute;
+ top: 23%;
+ left: 6%;
+}
+p
+{
+ padding: 20px;
+ color: #fff;
+}
+.form-box
+{
+ position: absolute;
+ top: 15%;
+ font-size: 26px;
+ color: #f200ff;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ left: 25%;
+ top: 20%;
+}
+.input-box
+{
+ border: none;
+ outline: none;
+ 
+}
+.bt1
+{
+ border-radius: 25px;
+ box-shadow: 1px 1px 1px #000;
+ height: 50px;
+ width: 260px;
+ color: #fff;
+ position: absolute;
+ cursor: pointer;
+ left: 1%;
+ top: 97%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.bt4
+{
+ border-radius: 25px;
+ box-shadow: 1px 1px 1px #000;
+ height: 50px;
+ width: 260px;
+ color: #fff;
+ font-size: 22px;
+ background: #7c0782;
+ cursor: pointer;
+ position: absolute;
+ left: 30%;
+ top: 72%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}

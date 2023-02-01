@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+	padding: 0;
+	background: #333;
+}
+nav{
+	background: #00ffff;
+    color: #fff;
+    display: flex;
+    border-radius: 20px;
+    height: 50px;
+}
+nav li{
+	list-style: none;
+    display: inline;
+    border-left: 3px solid #fbf5f5;
+    height: 100%;
+    padding: 18px;
+    line-height: 3;
+}
+nav ul {
+	margin: 0;
+    height: 100%;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+.search-bar
+{
+ line-height: 3;
+ color: #000000;
+ border-left: 3px solid #fbf5f5;
+ padding-left: 20px;
+}
+.image{
+	height: 50px;
+	width: 50px;
+}

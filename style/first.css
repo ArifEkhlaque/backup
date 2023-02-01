@@ -1,0 +1,18 @@
+.hi
+{
+ border-radius: 20px;
+ height: 40px;
+ width: 156px;
+ background: #333;
+ text-align: center;
+ font-size: 29px;
+ color: #fff;
+ cursor:pointer;
+ 
+}
+.hi:hover
+{
+ transform: scale(1.1);
+ transition: 0.5s;
+ background: #ff0;
+}

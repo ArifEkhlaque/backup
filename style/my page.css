@@ -1,0 +1,50 @@
+body{
+   background:#00e1ffde;
+   animation:animate 10s Linear infinite;
+    } 
+@keyframes animate{
+0%{background:#000000;}
+10%{background:#FF0000;}
+20%{background:#00FFFF;}
+30%{background:#0000FF;}
+40%{background:#00008B;}
+50%{background:#ADD8E6;}
+60%{background:#800080;}
+70%{background:#FFFF00;}
+80%{background:#00FF00;}
+90%{background:#FF00FF;}
+100%{background:#FFC0CB;}
+}
+  table{
+     color:#fff;
+     width:1480px;
+     height:90px;
+     border-radius:10px 12px 10px 12px;
+     box-shadow:5px 5px 6px #000;
+  }
+  h1{color:#fff;
+     size:32px;
+}
+  th{size:48px;
+     font-size:22px;
+     color:#fff;
+     width: 500px;
+     background:RED;
+     width: 300px;
+     /*text-shadow: 1px 2px 5px #000;
+     box-shadow: 2px 3px 7px #000;
+     border-radius:20px;*/
+
+} 
+  td{size:48px;
+     font-size:22px;
+     color:#fff;
+     width:500px;
+     background:BLUE;
+     width: 300px;
+     border-radius:20px;
+}
+
+  p{color:#fff;
+    size:10px;
+  }

@@ -1,0 +1,31 @@
+body
+{
+ background: url(../image/arifek.jpg);
+ background-size: cover;
+}
+.text
+{
+ font-size: 150px;
+ position: absolute;
+ left: 25%;
+ top:20%;
+ transform:translateX(-100px);
+ color: #fff;
+ mix-blend-mode: overlay;
+ text-shadow: 5px 5px 5px #fff;
+ transform: translateY(-218px);
+ text-transform: uppercase;
+}
+.text1
+{
+ font-size: 150px;
+ position: absolute;
+ left: 25%;
+ top:50%;
+ transform:translateX(-100px);
+ color: #fff;
+ mix-blend-mode: overlay;
+ text-shadow: 5px 5px 5px #fff;
+ transform: translateY(-218px);
+ text-transform: uppercase;
+}

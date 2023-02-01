@@ -1,0 +1,37 @@
+body
+{
+ background-color: #000;
+}
+.circle1
+{
+ height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: linear-gradient(#f900f9,#fc2eb1,#0997fd);
+ filter: blur(3px);
+ left: 43%;
+ top: 35%;
+ animation: animatecircle 4s linear infinite;
+}
+.circle2
+{
+ height: 170px;
+ width: 170px;
+ border-radius: 50%;
+ background: #000;
+}
+@keyframes animatecircle
+{
+ 0%
+ {
+ transform: rotate(0deg);
+ }
+ 100%
+ {
+ transform: rotate(360deg);
+ }
+}

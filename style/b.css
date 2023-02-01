@@ -1,0 +1,19 @@
+body
+{
+ background: #333;
+}
+.box a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}

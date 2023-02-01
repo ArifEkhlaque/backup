@@ -1,0 +1,131 @@
+body
+{
+ margin: 0;
+ padding: 0;
+}
+.container
+{
+ height: 100vh;
+ width: 100%;
+ background: #ff0;
+}
+.h1
+{
+ color :#f00;
+ position: absolute;
+ top: 10%;
+}
+.text1
+{
+ left: 35%;
+}
+.text2
+{
+ left: 45%;
+}
+.text3
+{
+ left: 55%;
+}
+.bt 
+{
+ height: 50px;
+ width: 100px;
+ color: #fff;
+ border-radius: 50px;
+ border: 5px solid #fff;
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+.button1
+{
+ background: #004b00;
+ top: 70%;
+ left: 45%;
+}
+.button2
+{
+ background: #ff9d00;
+ top: 70%;
+ left: 35%
+}
+.button3
+{
+ background: #ff9d00;
+ top: 70%;
+ left: 45%
+}
+ .button4
+{
+ background: #ff9d00;
+ top: 70%;
+ left: 55%
+}
+.img
+{
+ height: 200px;
+ width: 200px;
+ position: absolute;
+ top: 26%;
+}
+.image1
+{
+ left: 53%;
+}
+.image2
+{
+ left: 31%;
+ transform: rotateY(180deg);
+}
+.box
+{
+ display: none;
+}
+.image1.active{
+    transform: translateY(0);
+    animation: animate 1s linear infinite;
+}
+.image2.active{
+    transform: translateY(0) rotateY(180deg);
+    animation: animate2 1s linear infinite;
+}
+@keyframes animate
+{
+ 0%{
+    transform: translateY(0);
+ }
+ 25%{
+    transform: translateY(-30px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+  75%{
+    transform: translateY(30px);
+  }
+  100%{
+transform: translateY(0);
+  }
+}
+
+@keyframes animate2
+{
+ 0%{
+    transform: translateY(0) rotateY(180deg);;
+ }
+ 25%{
+    transform: translateY(-30px) rotateY(180deg);;
+  }
+  50%{
+    transform: translateY(0) rotateY(180deg);
+  }
+  75%{
+    transform: translateY(30px) rotateY(180deg);
+  }
+  100%{
+transform: translateY(0) rotateY(180deg);
+  }
+}

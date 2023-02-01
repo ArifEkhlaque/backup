@@ -1,0 +1,29 @@
+body {
+    background: #333;
+}
+
+.drop{
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    background: #fff;
+    height: 320px;
+    width: 320px;
+    filter: blur(5px);
+    animation: animatedrop 10s linear infinite;
+}
+@keyframes animatedrop{
+    0%{
+         left: 45%;
+         top: 40%; 
+    }
+    50%{
+        left: 12%;
+        top: 10%; 
+    }
+    100%{
+        left: 45%;
+        top: 40%; 
+    }
+}
